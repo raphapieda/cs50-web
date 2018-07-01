@@ -1,0 +1,46 @@
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+    color: black;
+}
+
+h1 {
+	background-color: gold;
+}
+
+a {
+	text-decoration: none;	
+}
+
+#menu {
+	background-color: #99ccff;	
+}
+
+#lorem {
+	background-color: #ccffcc;		
+}
+
+.nice-font {
+	font-family: Helvetica;
+	color: blue;
+}
+
+.round {
+	border-radius: 50%;
+}
+
+.circle-bullet {
+	list-style-type: circle;
+}
+
