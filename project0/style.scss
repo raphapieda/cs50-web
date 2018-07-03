@@ -1,0 +1,93 @@
+/* Nesting */
+ul {
+    > li {
+       background-color: red;
+       text-decoration-color: #66ff99;
+    }
+}
+
+/* Inheritance */
+%td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;    
+}
+
+td {
+    @extend %td;
+}
+
+
+th {
+    @extend %td;
+    background-color: lightgray;
+    color: black;
+}
+
+
+/* Variable */
+$var_font: Helvetica;
+
+.nice-font {
+    font-family: $var_font;
+    color: blue;
+}
+
+
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+
+h1 {
+	background-color: gold;
+}
+
+a {
+	text-decoration: none;	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+#menu {
+	background-color: #99ccff;	
+}
+
+#lorem {
+	background-color: #ccffcc;		
+}
+
+
+.round {
+	border-radius: 50%;
+}
+
+.circle-bullet {
+	list-style-type: circle;
+}
+
+
+@media (min-width: 500px) {
+    body {
+        background-color: white;
+    }
+}
+
+@media (max-width: 499px) {
+    body {
+        background-color: gray;
+    }
+}
+
+/*
+.col-6 {
+	border: solid;
+}
+*/
+
