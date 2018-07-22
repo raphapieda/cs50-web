@@ -1,3 +1,0 @@
-Flask==1.0.2
-SQLAlchemy==1.2.10
-psql (PostgreSQL) 10.4
