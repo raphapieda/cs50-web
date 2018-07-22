@@ -1,6 +1,0 @@
-Testing git authentication !
-
-
-[EDITED SUCCESSFULLY]
-
-[SECOND EDITING]
