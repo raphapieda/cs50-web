@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book page</title>
+</head>
+<body>
+
+<h1>Book page</h1>
+
+{% for book in data_dic %}
+
+<h4>Title: </h4>
+{{book.book_title}}
+
+<h4>Author: </h4>
+{{book.book_author}}
+
+{% endfor %}
+
+<h4>Publication year: </h4>
+{{book_year}}
+
+<h4>ISBN number: </h4>
+{{book_number}}
+
+<h4>Reviews: </h4>
+Number of reviews: {{review_qtd}}
+<br>Average reviews: {{review_avg}}
+
+</body>
+</html>

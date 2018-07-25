@@ -31,3 +31,16 @@ def index():
         return render_template('create_login.html', data = data)
     else:
         return render_template('index.html')
+
+
+@app.route("/book")
+def book():
+	data_dic = [{'book_title':'Admiravel Mundo Novo', 'book_author': 'Aldous Huxley'},
+				{'book_title':'Rei do Gado', 'book_author': 'Antonio Fagundes'}]
+	return render_template('book.html', data_dic=data_dic)
+
+
+
+
+
+
