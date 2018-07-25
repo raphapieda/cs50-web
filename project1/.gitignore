@@ -1,2 +1,4 @@
 .venv
 .idea/
+project1/__pycache__/
+project/*pyc
